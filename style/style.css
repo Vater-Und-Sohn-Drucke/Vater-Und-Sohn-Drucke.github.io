@@ -81,7 +81,7 @@ body {
     border-radius: 18px;
     margin-top: 50px;
     width: 80%;
-    max-width: 500px;
+    max-width: 50vh;
     border-color: aliceblue;
     border-style: double;
 }
