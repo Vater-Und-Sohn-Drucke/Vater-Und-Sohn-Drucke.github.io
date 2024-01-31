@@ -1,99 +1,123 @@
 body {
     text-align: center;
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../images/Background.jpg);
+    color:aliceblue;
+    aspect-ratio: 540/960;
+    width: 100%;
+    background-repeat: repeat-y;
+    background-position: top;
     background-size: cover;
-    background-position: top center;
-    height: 200vh;
-    color: white;
-
-}   
-
-#logo {
-    background-color: rgb(7, 6, 31);
-    border-radius: 20px;
-    margin-bottom: 30px;
-    border-color: rgb(0, 255, 255, 0.3);
-    border-style: dashed;
+    background-image: url(../images/backg1.svg);
 }
 
-#navigation {
-    margin-bottom: 24px;
+#Head {
+    font-size: 20px;
+    background-color:rgb(27, 53, 75, 0.6) ;
+    border-radius: 24px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px; 
+    margin-bottom: 40px;
+    border-color: aliceblue;
+    border-style:solid;
+    border-width: 4px;
+}
+
+#Head .link:hover {
+    cursor: pointer;
 }
 
 #navigation .link {
+    background-color: rgb(27, 53, 75, 0.8);
+    font-size: 18px;
     padding: 24px;
-    border-radius: 18px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color:darkblue;
+
 }
 
 #navigation .link:hover {
-    background-color: rgb(7, 7, 49);
+    border-color: rgb(3, 126, 126);
+    border-style: dashed;
+    background-color: rgba(0, 58, 68, 0.8);
     cursor: pointer;
-    border-color: azure;
-    border-style: dotted;
 }
 
-#nav2 {
-    margin-bottom: 24px;
-}
-
-#nav2 .link {
-    padding: 24px;
-    border-radius: 18px;
-}
-
-#nav2 .link:hover {
-    background-color: rgb(7, 7, 49);
-    cursor: pointer;
-    border-color: azure;
-    border-style: dotted;
-}
-
-#Willkommenstext {
-    background-color:rgb(12, 0, 39, 0.3);
-    border-radius: 18px;
-    margin-top: 75px;
+#start-text {
+    background-color: rgb(65, 134, 134, 0.4);
+    border-radius: 20px;
+    margin-left:30px;
+    margin-right: 30px;
+    margin-top:40px;
+    padding: 5px;
     border-color: gold;
-    border-style:groove;
-    margin-bottom: 100px;
-}
-
-.Info img {
-    border-radius: 18px;
-    margin-top: 10px;
-    width: 80%;
-    max-width: 240px;
-    border-color: aliceblue;
     border-style: double;
 }
 
-.Modell img {
-    border-radius: 18px;
-    margin-top: 10px;
-    width:80%;
-    max-width: 240px;
-    border-color: aliceblue;
-    border-style: double;
+#start-text h2 {
+    text-decoration: underline;
 }
 
-.Einhorn img {
-    border-radius: 18px;
-    margin-top: 10px;
-    width:80%;
-    max-width: 240px;
-    border-color: aliceblue;
-    border-style: double;
+#start-text h3 {
+    text-decoration: underline;
 }
 
 #footer {
-    margin-left: 30px;
-    margin-right: 30px;
-    border-radius: 18px;
-    border-color: rgb(30, 23, 58);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    border-radius: 20px;
     border-style: double;
-    background-color: rgb(14, 14, 44, 0.5);
+    background-color: rgba(65, 45, 85, 0.6);
+    border-color: rgb(128, 0, 255);
 }
 
 #footer h3 {
     margin: 10px;
+    text-decoration: underline;
+}
+
+.Farbe img {
+    border-radius: 18px;
+    margin-top: 50px;
+    width: 80%;
+    max-width: 300px;
+    border-color: aliceblue;
+    border-style: double;
+}
+
+.Farbe h2 {
+    text-decoration: underline;
+}
+
+.Modell img {
+    border-radius: 18px;
+    margin-top: 50px;
+    width:80%;
+    max-width: 300px;
+    border-color: aliceblue;
+    border-style: double;
+}
+
+.Modell h2 {
+    text-decoration: underline;
+}
+
+.Info {
+    background-color: rgba(65, 134, 96, 0.4);
+    border-radius: 20px;
+    margin-left:30px;
+    margin-right: 30px;
+    margin-top:40px;
+    padding: 5px;
+    border-color: rgb(0, 255, 13);
+    border-style: double;
+}
+
+.Info h2 {
+    text-decoration: underline;
+}
+
+.Info h3 {
     text-decoration: underline;
 }
