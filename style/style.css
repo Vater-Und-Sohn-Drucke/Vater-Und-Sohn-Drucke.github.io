@@ -80,7 +80,8 @@ body {
 .Farbe img {
     border-radius: 18px;
     margin-top: 50px;
-    max-width: 220px;
+    width:90%;
+    max-width: 300px;
     border-color: aliceblue;
     border-style: double;
 }
@@ -92,7 +93,7 @@ body {
 .Modell img {
     border-radius: 18px;
     margin-top: 50px;
-    width:80%;
+    width:90%;
     max-width: 300px;
     border-color: aliceblue;
     border-style: double;
