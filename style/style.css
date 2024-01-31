@@ -80,7 +80,7 @@ body {
 .Farbe img {
     border-radius: 18px;
     margin-top: 50px;
-    max-width: 50vh;
+    max-width: 280px;
     border-color: aliceblue;
     border-style: double;
 }
