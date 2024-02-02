@@ -8,10 +8,9 @@
 body {
     text-align: center;
     color:aliceblue;
-    min-height: 100vh;
     aspect-ratio: 540/960;
     width: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: center;
     background-size: cover;
     background-image: url(../images/background/waves-blue.svg), url(../images/background/stars-blue.svg);
