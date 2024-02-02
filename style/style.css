@@ -14,14 +14,12 @@ body {
     color:aliceblue;
     aspect-ratio: 540/960;
     width: 100%;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-image: url(../images/background/waves-blue.svg), url(../images/background/stars-blue.svg);
     background-color: black;
 }
-
-
 
 .header {
     position: fixed;
@@ -134,7 +132,7 @@ body {
 
     .navbar a {
         display: block;
-        font-size: 1.1rem;
+        font-size: 1.4rem;
         margin: 1.5rem 0;
         text-align: center;
         transform: translateY(-50px);
