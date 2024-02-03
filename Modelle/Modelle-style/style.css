@@ -92,7 +92,7 @@ body {
 }
 
 /* BREAKPOINTS */
-@media (max-width: 1200px) {
+@media (max-width: 1920px) {
     .header {
         padding: 14px 3%;
 
