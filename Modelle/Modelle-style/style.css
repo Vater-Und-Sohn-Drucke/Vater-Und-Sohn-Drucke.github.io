@@ -150,8 +150,35 @@ body {
     }
 }
 
+@media (max-width: 608px) {
+
+    #Blast-X img {
+        width: 160px;
+    }
+}
+
+@media (min-width: 608px) and (max-width: 912px) {
+
+    #Blast-X img {
+        width: 261.5px;
+    }
+}
+
+@media (min-width: 1028px) and (max-width: 1372px) {
+
+    #Blast-X img {
+        width: 223px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
 #Blast-X {
     margin-top: 50px;
+}
+
+#Blast-X img {
+    max-width: 300px;
 }
 
 .Modell img {
